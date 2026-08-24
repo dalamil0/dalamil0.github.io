@@ -53,3 +53,43 @@ h2 {
 li {
     margin-bottom: 8px;
 }
+section {
+    margin-bottom: 35px;
+}
+
+section h3 {
+    color: #3a3153;
+    border-bottom: 1px solid #777777;
+    padding-bottom: 8px;
+}
+
+.color-sample {
+    padding: 18px;
+    margin: 12px 0;
+    border: 1px solid #777777;
+}
+
+.cream {
+    background-color: #f7f3ee;
+    color: #2f2f2f;
+}
+
+.dark-gray {
+    background-color: #2f2f2f;
+    color: #f7f3ee;
+}
+
+.deep-purple {
+    background-color: #3a3153;
+    color: #f7f3ee;
+}
+
+.muted-purple {
+    background-color: #5a3d7a;
+    color: #f7f3ee;
+}
+
+.medium-gray {
+    background-color: #777777;
+    color: #f7f3ee;
+}
