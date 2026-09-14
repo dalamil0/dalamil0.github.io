@@ -36,7 +36,7 @@ form.addEventListener("submit", function(event) {
 
     let list = "<ol>";
 
-    for (let i = 1; i <= limit; i++) {
+for (let i = 1; i <= limit; i++) {
     let words = [];
 
     for (const rule of rules) {
@@ -54,10 +54,7 @@ form.addEventListener("submit", function(event) {
     list += "<li>" + message + "</li>";
 }
 
-        list += "<li>" + message + "</li>";
-    }
+list += "</ol>";
 
-    list += "</ol>";
-
-    output.innerHTML = list;
+output.innerHTML = list;
 });
