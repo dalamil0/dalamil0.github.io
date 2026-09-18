@@ -133,3 +133,20 @@ button:hover {
 #output ol {
     padding-left: 40px;
 }
+/* Site logo */
+.site-logo img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.site-logo {
+    float: left;
+    margin-right: 20px;
+}
+
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
