@@ -135,9 +135,8 @@ button:hover {
 }
 /* Site logo */
 .site-logo img {
-    width: 90px;
-    height: 90px;
-    object-fit: contain;
+    width: 120px;
+    height: auto;
 }
 
 .site-logo {
