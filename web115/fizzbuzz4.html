@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <title>Diana Digital - FizzBuzz 4</title>
+</head>
+
+<body>
+
+    <div data-include="components/header.html"></div>
+
+    <main>
+        <h2>FizzBuzz 4 - Fizz, Buzz, BANG, EVERYTHING</h2>
+
+        <h3>Choose Your FizzBuzz Adventure!</h3>
+
+        <form id="fizzbuzz-form">
+
+            <p>
+                <label for="number1">First Number:</label>
+                <input type="number" id="number1" value="3" required>
+                
+                <label for="word1">First Word:</label>
+                <input type="text" id="word1" value="Exploration">
+            </p>
+
+            <p>
+                <label for="number2">Second Number:</label>
+                <input type="number" id="number2" value="5" required>
+                
+                <label for="word2">Second Word:</label>
+                <input type="text" id="word2" value="Level-Up">
+            </p>
+
+            <p>
+                <label for="number3">Third Number:</label>
+                <input type="number" id="number3" value="7" required>
+                
+                <label for="word3">Third Word:</label>
+                <input type="text" id="word3" value="BANG!">
+            </p>
+
+            <p>
+                <label for="total">How high should we count?</label>
+                <input type="number" id="total" value="125" required>
+            </p>
+
+            <button type="submit">Make It Happen!</button>
+
+        </form>
+
+        <div id="output"></div>
+
+    </main>
+
+    <div data-include="components/footer.html"></div>
+
+    <script src="fizzbuzz4.js"></script>
+    <script src="scripts/HTMLInclude.js"></script>
+    <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
